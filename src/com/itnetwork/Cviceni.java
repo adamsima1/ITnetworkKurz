@@ -308,13 +308,65 @@ public class Cviceni {
         for(int i=1;i<=n;i++)
         {
             for(int j=1;j<=i;j++)
-                System.out.print(j); // or print(i);
+                System.out.print(j+" "); // or print(i);
+
+            System.out.println("");
 
 
+
+        }*/
+
+        /*int i,j,n,k=1;
+
+        System.out.print("Input number of rows : ");
+
+        Scanner in = new Scanner(System.in);
+        n = in.nextInt();
+
+        for(i=1;i<=n;i++)
+        {
+            for(j=1;j<=i;j++)
+                System.out.print(k++);
             System.out.println("");
         }*/
 
 
+        //Cykly patterny
+       /* int n = 5;
+
+        for (int i = 1; i<=n;i++){
+            for (int j=1;j<=n;j++){
+                out.print(" * ");
+            }
+            System.out.println();
+
+        }*/
+
+        /*int n = 5;
+        for (int i = 1; i<=n;i++){
+            for (int j = i; j<=n;j++){
+                out.print(" * ");
+            }
+            out.println();
+        }*/
+
+
+        //ARRAYS
+
+        /*int numbers[] ={50,60,185,996,547,125,698,555,233};
+        String words[] = {"Indian","Motorka","Sloveso","Manzelka","Auto","Pomerand"};
+
+        out.println(Arrays.toString(numbers));
+        Arrays.sort(numbers);
+        out.println("Sorted: " + Arrays.toString(numbers));
+        out.println();
+
+        out.println(Arrays.toString(words));
+        Arrays.sort(words);
+        out.println("Sorted: " + Arrays.toString(words));*/
+
+
+
 
 
 
@@ -332,7 +384,11 @@ public class Cviceni {
 
 
     }
-    }
+
+
+}
+
+
 
 
 

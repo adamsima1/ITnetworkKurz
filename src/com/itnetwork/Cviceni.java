@@ -1,10 +1,10 @@
 package com.itnetwork;
-
 import java.awt.*;
 import java.util.Arrays;
 import java.util.Scanner;
-
 import static java.lang.System.out;
+
+
 
 public class Cviceni {
 
@@ -382,6 +382,21 @@ public class Cviceni {
         }
         double average = sum / (double) numbers.length;
         out.println("Average is : "+ average);*/
+
+
+        //Kodovani do morseovky
+
+        String message = sc.nextLine();
+        out.print("Original message: " + message);
+
+        String cypher = "";
+
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        String[] morseChars = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....",
+                "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-",
+                "...-", ".--", "-..-", "-.--", "--.."};
+
+
 
 
 

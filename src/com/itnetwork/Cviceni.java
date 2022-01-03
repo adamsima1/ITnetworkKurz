@@ -1,5 +1,6 @@
 package com.itnetwork;
 
+import java.awt.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -366,15 +367,21 @@ public class Cviceni {
         out.println("Sorted: " + Arrays.toString(words));*/
 
 
+        /*out.println("Averege of numbers");
+        out.println("enter 5 numbers separated by a comma: ");
 
+        String input = sc.nextLine();
+        String[] numbers = input.split(",");
 
+        int sum = 0;
 
+        for (String number : numbers) {
+            int valueOfNumbers = Integer.parseInt(number);
+            sum += valueOfNumbers;
 
-
-
-
-
-
+        }
+        double average = sum / (double) numbers.length;
+        out.println("Average is : "+ average);*/
 
 
 
@@ -384,9 +391,36 @@ public class Cviceni {
 
 
     }
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -386,8 +386,9 @@ public class Cviceni {
 
         //Kodovani do morseovky
 
-        String message = sc.nextLine();
+        /*String message = sc.nextLine();
         out.print("Original message: " + message);
+        out.println();
 
         String cypher = "";
 
@@ -395,6 +396,16 @@ public class Cviceni {
         String[] morseChars = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....",
                 "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-",
                 "...-", ".--", "-..-", "-.--", "--.."};
+
+        int index = 0;
+        for (int i = 0; i<message.length(); i++) {
+            index= alphabet.indexOf(message.charAt(i));
+            if (index>=0) {
+                cypher += morseChars[index] + " ";
+            }
+
+        }
+        out.println("Message in cypher is : " + cypher);*/
 
 
 

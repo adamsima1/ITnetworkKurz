@@ -1,7 +1,12 @@
 package com.itnetwork;
+import com.sun.source.util.JavacTask;
+
 import java.awt.*;
+import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.Scanner;
+
+import static java.lang.Integer.parseInt;
 import static java.lang.System.out;
 
 
@@ -418,6 +423,52 @@ public class Cviceni {
         int decimal = Integer.parseInt(sc.nextLine());
 
         out.println("Hexadecimal number is : " + Integer.toHexString(decimal));*/
+
+
+        /*out.println("Input a Decimal Number: ");
+        int decimal = Integer.parseInt(sc.nextLine());
+
+        out.println("Octal number is: " + Integer.toOctalString(decimal));*/
+
+        /*out.println("Input a binary number:");
+        int decimal=Integer.parseInt(sc.nextLine(),2);
+
+        out.println("Decimal Number: " + decimal);*/
+
+        /*out.println("Input a Binary Number: ");
+        int binaryNumber=Integer.parseInt(sc.nextLine());
+        out.println("HexaDecimal value: " +Integer.toHexString(binaryNumber));*/
+
+        /*System.out.println("\nJava Version: "+System.getProperty("java.version"));
+        System.out.println("Java Runtime Version: "+System.getProperty("java.runtime.version"));
+        System.out.println("Java Home: "+System.getProperty("java.home"));
+        System.out.println("Java Vendor: "+System.getProperty("java.vendor"));
+        System.out.println("Java Vendor URL: "+System.getProperty("java.vendor.url"));
+        System.out.println("Java Class Path: "+System.getProperty("java.class.path")+"\n");*/
+
+
+        out.println("input first integer: ");
+        int number1 = Integer.parseInt(sc.nextLine());
+        out.println("Input second integer: ");
+        int number2 = Integer.parseInt(sc.nextLine());
+
+        if ( number1 == number2 )
+            System.out.printf( "%d == %d\n", number1, number2 );
+        if ( number1 != number2 )
+            System.out.printf( "%d != %d\n", number1, number2 );
+        if ( number1 < number2 )
+            System.out.printf( "%d < %d\n", number1, number2 );
+        if ( number1 > number2 )
+            System.out.printf( "%d > %d\n", number1, number2 );
+        if ( number1 <= number2 )
+            System.out.printf( "%d <= %d\n", number1, number2 );
+        if ( number1 >= number2 )
+            System.out.printf( "%d >= %d\n", number1, number2 );
+
+
+
+
+
 
     }
 }

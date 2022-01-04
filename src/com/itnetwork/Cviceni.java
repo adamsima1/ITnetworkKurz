@@ -408,13 +408,16 @@ public class Cviceni {
         out.println("Message in cypher is : " + cypher);*/
 
 
+        /*out.println("Input a Decimal Number:");
+        int decimal = Integer.parseInt(sc.nextLine());
+
+        out.println("Binary number is: " + Integer.toBinaryString(decimal));*/
 
 
+        /*out.println("Input a decimal number:");
+        int decimal = Integer.parseInt(sc.nextLine());
 
-
-
-
-
+        out.println("Hexadecimal number is : " + Integer.toHexString(decimal));*/
 
     }
 }

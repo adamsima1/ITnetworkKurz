@@ -467,6 +467,38 @@ public class Cviceni {
 
 
 
+        /*String again = "yes";
+        while (again.equals("yes")) {
+            out.println("Hello in converter program");
+            out.println("Celsium to Fahrenheit and Fahrenheit to Celsium");
+            out.println("Input degrees: ");
+            double celsius = 0;
+            double fahrenheit = 0;
+
+            double degrees = Double.parseDouble(sc.nextLine());
+
+            out.println("Select operation:");
+            out.println("1-Celsium to Fahrenheit");
+            out.println("2-Fahrenheit to Celsium");
+            int choice = Integer.parseInt(sc.nextLine());
+
+            switch (choice) {
+                case 1 -> {
+                    fahrenheit = (9.0 / 5.0) * degrees + 32;
+                    out.println("Temperature in Fahrenheit is : " + fahrenheit);
+                }
+                case 2 -> {
+                    celsius = (5.0 / 9.0) * (degrees - 32);
+                    out.println("Temperature in Celsius is : " + celsius);
+                }
+            }
+            out.println("Again? Write yes or no: ");
+            again = sc.nextLine().toLowerCase().trim();
+        }
+        out.println("Thank you for using the program.");*/
+
+
+
 
 
 

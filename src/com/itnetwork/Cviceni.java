@@ -447,7 +447,7 @@ public class Cviceni {
         System.out.println("Java Class Path: "+System.getProperty("java.class.path")+"\n");*/
 
 
-        out.println("input first integer: ");
+        /*out.println("input first integer: ");
         int number1 = Integer.parseInt(sc.nextLine());
         out.println("Input second integer: ");
         int number2 = Integer.parseInt(sc.nextLine());
@@ -463,7 +463,9 @@ public class Cviceni {
         if ( number1 <= number2 )
             System.out.printf( "%d <= %d\n", number1, number2 );
         if ( number1 >= number2 )
-            System.out.printf( "%d >= %d\n", number1, number2 );
+            System.out.printf( "%d >= %d\n", number1, number2 );*/
+
+
 
 
 

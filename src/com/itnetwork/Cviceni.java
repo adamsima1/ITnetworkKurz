@@ -498,6 +498,120 @@ public class Cviceni {
         out.println("Thank you for using the program.");*/
 
 
+        /*out.println("Reverse string");
+
+        String s = sc.nextLine().trim();
+        String reverse = "";
+
+        for (int i = s.length() - 1; i >= 0; i--) {
+            reverse += s.charAt(i);
+        }
+        out.println("Reverse string: "+ reverse);*/
+
+
+
+        /*String textToAnalyze = sc.nextLine();
+        out.println("Input a string");
+        char [] ch = textToAnalyze.toCharArray();
+        int letter = 0;
+        int space = 0;
+        int number = 0;
+        int other = 0;
+
+        for (int i = 0; i <textToAnalyze.length(); i++) {
+
+            if(Character.isLetter(ch[i])){
+                letter ++ ;
+
+            }else if (Character.isDigit(ch[i])) {
+                number++;
+            }else if(Character.isSpaceChar(ch[i])){
+                space++;
+            }else
+                other++;
+
+
+            }
+
+        out.println("The string is: " + textToAnalyze);
+        out.println("Letters: " + letter);
+        out.println("Spaces: " + space);
+        out.println("Number: " + number);
+        out.println("Other: " + other);*/
+
+        //ASCII Value
+        /*char ch = 'Z';
+        int ascii = (int)ch;
+        out.println("The ASCII value of Z is : " + ascii);*/
+
+
+        //ascii tabulka
+
+       /* for (int i = 33; i <=256;i++){
+            char ch = (char) i;
+            out.println(i + " : " + ch);
+        }*/
+
+        /*String s = "Mount Everest";
+        System.out.println(s);
+        s = s.toLowerCase();
+
+        // inicializace počítadel
+        int pocetSamohlasek = 0;
+        int pocetSouhlasek = 0;
+
+        // definice typů znaků
+        String samohlasky = "aeiouyáéěíóúůý";
+        String souhlasky = "bcčdďfghjklmnpqrřsštťvwxzž";
+
+        // hlavní cyklus
+        for (char c : s.toCharArray()) {
+            if (samohlasky.contains(String.valueOf(c))){
+                pocetSamohlasek++;
+            }
+            if (souhlasky.contains(String.valueOf(c))){
+                pocetSouhlasek++;
+
+            }
+        }
+        out.println("Samohlasek: " + pocetSamohlasek);
+        out.println("Souhlasek: " + pocetSouhlasek);*/
+
+
+        /*String s = "gaiusjuliuscaesar";
+        System.out.printf("Původní zpráva: %s\n", s);
+        String zprava = "";
+        int posun = 1;
+
+        // cyklus projíždějící jednotlivé znaky
+        for (char c : s.toCharArray()) {
+            int i = (int)c;
+            i += posun;
+            char znak = (char)i;
+            zprava += znak;
+
+        }
+        out.println(zprava);*/
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
 
 
 
@@ -505,7 +619,7 @@ public class Cviceni {
 
 
     }
-}
+
 
 
 
